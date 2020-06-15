@@ -1,0 +1,79 @@
+324CC ILIESCU LUCIAN-MARIUS
+
+Alegerea bibliotecii de parsare:
+
+-am ales biblioteca nlohmann pentru usurinta de utilizare in creare si
+parsare de jsoane si pentru ca a fost recomandata in cerinta temei
+
+Functionarea programului:
+
+-Se citesc comenzi intr-o bucla infinita pana la primirea comenzii exit.
+-Intrucat clientul ramane conectat la server pentru o perioada scurta de timp,
+se deschide si se inchide conexiunea la fiecare comanda.
+
+Comanda register:
+
+-verific daca clientul are cookie de autentificare(e logat), daca da, 
+nu se poate face inregistrarea
+-citesc datele userului si le pun intr-un json cu campurile username si password
+-convertesc jsonul in string si il trimit la requestul de get la server
+-primesc raspunsul si verific daca este de tip created,
+caz in care inregistrarea s-a realizat cu succes, altfel afisez mesaj de eroare
+
+Comanda login:
+
+-similar cu register
+-cand primesc raspuns de la server, in cazul in care acesta este pozitiv,
+extrag cookie-ul din raspuns folosind delimitatori si il restin
+
+Comanda enter_library:
+
+-daca userul are deja un JWT se afiseaza mesaj de eroare
+-se trimite request de get la server si se primeste raspunsul
+-daca raspunsul este OK, extrag jsonul ca string din mesaj cu separatori
+-il convertesc in obiect de tip json si retin tokenul JWT
+
+Comanda get_books:
+
+-trimit request de get la server, folosind JWT
+-primesc raspunsul si verific tipul acestuia
+-daca e ok extrag lista de carti folosind separatori
+-afisez cartile
+
+Comanda add_book:
+
+-citesc detaliile cartii de la tastatura
+-verific daca is valide(page_countul sa fie numar pozitiv)
+-creez un json cu detaliile cartii si il convertesc in string
+-trimit jsonul convertit in post requestul catre server
+-in cazul in care lipseste jwt-ul se afiseaza mesaj de eroare
+
+Comanda get_book:
+
+-citesc id-ul de la tastatura si verific daca e valid
+-concatenez id-ul la string-ul url-ului
+-trimit request de get folosind JWT la server
+-verific tipul de raspuns
+-extrag cartea din raspuns folosind separatori
+-afisez detaliile cartii
+
+Comanda delete_book
+
+-citesc id-ul de la tastatura si verific daca e valid
+-concatenez id-ul la string-ul url-ului
+-trimit request de delete folosind JWT la server
+-verific raspunsul de la server si afisez mesajul corespunzator
+
+Comanda logout
+
+-verific daca userul e logat (exista cookie)
+-trimit request de get la server
+-verific raspunsul
+-daca e ok, sterg continutul cookieului si al tokenului
+
+Comanda exit
+
+-dau break la bucla while
+
+La toate functiile verific daca serverul a primit prea multe requesturi,
+verificand tipul de raspuns, daca este TOO MANY REQUESTS, afise mesaj de eroare.
