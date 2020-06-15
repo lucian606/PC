@@ -1,0 +1,40 @@
+324CC Iliescu Lucian-Marius
+
+Parsarea tabelei de rutare:
+Citesc fisierul linie cu linie folosind functia fgets.
+Sparg linia citita in componentele necesare ale entry-ului folosind sscanf.
+Convertesc adresele date din forma de string in forma de intreg fara semn.
+Dupa convertire pun entry-ul in tabela.
+
+Cautarea in tabela de rutare:
+Am folosit un arbore binar, unde nivelul curent este pozitia la nivelul bitilor.
+Masca imi spune primii de primii cati biti din prefix am nevoie.
+Stiind ca masca este formata dintr-o secventa de biti de 1, calculez lungimea.
+Pun index-ul elementului din tabela, urmand primii l(lungimea mastii) biti din
+prefix, 0 inseamna ca merg la stanga si 1 inseamna ca merg la dreapta, deplasarea
+incepe de la MSB, daca nu exista un nod prin care sa trec, creez eu unul avand
+indexul -1, sugerand ca este doar nod de trecere.
+Ca sa gasesc entry-ul incep sa ma deplasez in arbore folosind bitii adresei,
+pana ajung la frunze. Daca am gasit un index care nu e -1 il retin, iar
+ultimul index retinut este entry-ul optim pentru adresa cautata.
+Cautarea se realizeaza in O(32)=O(1), deoarece arborele are cel mult inaltimea
+32 si se parcurge pana la frunze.
+
+Procesul de dirijare:
+Extrag headrul de ethernet, ip si imp din pachet.
+Verific daca pachetul este de tip arp, caz in care il arunc.
+Verific checksumul.
+Verific ttl-ul. Daca acesta este mai mic decat 1 trimit un raspuns ICMP.
+Caut best-route. Daca nu este gasit trimit un raspuns ICMP.
+Raspund la requestul ICMP daca acesta se adreseaza ruterului.
+Calculez ttl-ul si checksumul.
+Caut entry-ul arp corespunzator destinatiei.
+Trimit pachetul.
+
+Creearea pachetelor ICMP:
+Initializez un pachet nou si extrag headerele de ethernet, ip si icmp.
+Sursa devine destinatie (hostul si adresa sursei vor fi hostul si adresa destinatiei si invers).
+Completez headerul de ip si icmp, setand tipul de icmp necesar (reply, host_unreach, timeout).
+Trimit pachetul.
+
+Probleme intampinate: pe vmchecker imi pica teste random la fiecare submisie
