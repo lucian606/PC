@@ -1,0 +1,275 @@
+
+dig A single-v4.protocoale.xyz
+
+; <<>> DiG 9.11.5-P4-5.1ubuntu2.1-Ubuntu <<>> A single-v4.protocoale.xyz
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 18800
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;single-v4.protocoale.xyz.	IN	A
+
+;; ANSWER SECTION:
+single-v4.protocoale.xyz. 271	IN	A	127.0.0.1
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Ma apr 14 18:37:03 EEST 2020
+;; MSG SIZE  rcvd: 69
+
+dig A single.protocoale.xyz
+
+; <<>> DiG 9.11.5-P4-5.1ubuntu2.1-Ubuntu <<>> A single.protocoale.xyz
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 13750
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;single.protocoale.xyz.		IN	A
+
+;; ANSWER SECTION:
+single.protocoale.xyz.	269	IN	A	127.0.0.1
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Ma apr 14 18:37:47 EEST 2020
+;; MSG SIZE  rcvd: 66
+
+dig A multi-v4.protocoale.xyz
+
+; <<>> DiG 9.11.5-P4-5.1ubuntu2.1-Ubuntu <<>> A multi-v4.protocoale.xyz
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 60928
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;multi-v4.protocoale.xyz.	IN	A
+
+;; ANSWER SECTION:
+multi-v4.protocoale.xyz. 283	IN	A	127.2.2.2
+multi-v4.protocoale.xyz. 283	IN	A	127.3.3.3
+multi-v4.protocoale.xyz. 283	IN	A	127.4.4.4
+multi-v4.protocoale.xyz. 283	IN	A	127.1.1.1
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Ma apr 14 18:38:21 EEST 2020
+;; MSG SIZE  rcvd: 116
+
+dig AAAA single.protocoale.xyz
+
+; <<>> DiG 9.11.5-P4-5.1ubuntu2.1-Ubuntu <<>> AAAA single.protocoale.xyz
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 48078
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;single.protocoale.xyz.		IN	AAAA
+
+;; ANSWER SECTION:
+single.protocoale.xyz.	280	IN	AAAA	::1
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Ma apr 14 18:39:00 EEST 2020
+;; MSG SIZE  rcvd: 78
+
+dig AAAA multi-v6.protocoale.xyz
+
+; <<>> DiG 9.11.5-P4-5.1ubuntu2.1-Ubuntu <<>> AAAA multi-v6.protocoale.xyz
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 39161
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;multi-v6.protocoale.xyz.	IN	AAAA
+
+;; ANSWER SECTION:
+multi-v6.protocoale.xyz. 300	IN	AAAA	::2
+multi-v6.protocoale.xyz. 300	IN	AAAA	::1
+multi-v6.protocoale.xyz. 300	IN	AAAA	::4
+multi-v6.protocoale.xyz. 300	IN	AAAA	::3
+
+;; Query time: 58 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Ma apr 14 18:39:47 EEST 2020
+;; MSG SIZE  rcvd: 164
+
+dig MX protocoale.xyz
+
+; <<>> DiG 9.11.5-P4-5.1ubuntu2.1-Ubuntu <<>> MX protocoale.xyz
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 16009
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;protocoale.xyz.			IN	MX
+
+;; ANSWER SECTION:
+protocoale.xyz.		260	IN	MX	30 alt3.gmail-smtp-in.l.google.com.
+protocoale.xyz.		260	IN	MX	20 alt2.gmail-smtp-in.l.google.com.
+protocoale.xyz.		260	IN	MX	10 alt1.gmail-smtp-in.l.google.com.
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Ma apr 14 18:41:04 EEST 2020
+;; MSG SIZE  rcvd: 132
+
+dig MX protocoale.xyz
+
+; <<>> DiG 9.11.5-P4-5.1ubuntu2.1-Ubuntu <<>> MX protocoale.xyz
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 18647
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;protocoale.xyz.			IN	MX
+
+;; ANSWER SECTION:
+protocoale.xyz.		285	IN	MX	30 alt3.gmail-smtp-in.l.google.com.
+protocoale.xyz.		285	IN	MX	10 alt1.gmail-smtp-in.l.google.com.
+protocoale.xyz.		285	IN	MX	20 alt2.gmail-smtp-in.l.google.com.
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mi apr 15 08:44:42 EEST 2020
+;; MSG SIZE  rcvd: 132
+
+dig trace A test.dorinel.protocoale.xyz
+
+; <<>> DiG 9.11.5-P4-5.1ubuntu2.1-Ubuntu <<>> trace A test.dorinel.protocoale.xyz
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: SERVFAIL, id: 38054
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;trace.				IN	A
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mi apr 15 08:47:10 EEST 2020
+;; MSG SIZE  rcvd: 34
+
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 42384
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;test.dorinel.protocoale.xyz.	IN	A
+
+;; ANSWER SECTION:
+test.dorinel.protocoale.xyz. 281 IN	A	127.0.42.0
+test.dorinel.protocoale.xyz. 281 IN	A	127.0.0.42
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mi apr 15 08:47:10 EEST 2020
+;; MSG SIZE  rcvd: 88
+
+dig -x 127.0.0.1
+
+; <<>> DiG 9.11.5-P4-5.1ubuntu2.1-Ubuntu <<>> -x 127.0.0.1
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 63814
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;1.0.0.127.in-addr.arpa.		IN	PTR
+
+;; ANSWER SECTION:
+1.0.0.127.in-addr.arpa.	0	IN	PTR	www.sublimetext.com.
+1.0.0.127.in-addr.arpa.	0	IN	PTR	license.sublimehq.com.
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mi apr 15 08:49:54 EEST 2020
+;; MSG SIZE  rcvd: 116
+
+dig google.com discus.nssitaly.com
+
+; <<>> DiG 9.11.5-P4-5.1ubuntu2.1-Ubuntu <<>> google.com discus.nssitaly.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 2565
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;google.com.			IN	A
+
+;; ANSWER SECTION:
+google.com.		172	IN	A	216.58.207.174
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mi apr 15 08:53:13 EEST 2020
+;; MSG SIZE  rcvd: 55
+
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 10902
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;discus.nssitaly.com.		IN	A
+
+;; ANSWER SECTION:
+discus.nssitaly.com.	3540	IN	A	93.51.142.22
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mi apr 15 08:53:13 EEST 2020
+;; MSG SIZE  rcvd: 64
+
+dig NS dorinel.protocoale.xyz
+
+; <<>> DiG 9.11.5-P4-5.1ubuntu2.1-Ubuntu <<>> NS dorinel.protocoale.xyz
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 14845
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;dorinel.protocoale.xyz.		IN	NS
+
+;; ANSWER SECTION:
+dorinel.protocoale.xyz.	284	IN	NS	potato.dfilip.xyz.
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mi apr 15 08:55:20 EEST 2020
+;; MSG SIZE  rcvd: 79
+

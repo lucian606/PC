@@ -1,0 +1,82 @@
+Guideline
+15858
+Semestrul I
+- a fost o laba, lejereanu' pe langa sem 1 anul 1, ca nu prea mergeai la cursuri (doar la 2 cam merita sa vii, insa nici alea cu prezenta obligatorie) si teme doar la IOCLA si AA (POO in vacanta)
+
+POO
+Cursul cu minunata Odubasteanu, cam aceeasi poveste ca la PC: curs plictisitor, mai bine dormi la tine in pat si inveti Java singur. La laborator vine asa:
+profa (praf la lab, ea este useless la laborator ca nu te ajuta cu nimic, are pretentia sa stii de la curs), Cristina Savin (am auzit ca este destul de ok tipa),
+minunatul de Nan (am facut labul cu el, era mai chill aici decat cum l-am prins la PC, unde conta la nota cat faceai la lab), Matei Teodorescu (il stiti de la PC), eu si inca cineva (sa vedem).
+Laburile la POO sunt destul de consistente, macar nu ar mai conta cat faci la lab, eu am dat test pe hartie (o porcarie) la lab (usurel testul totusi). Tema este una singura, in vacanta de iarna, in care veti avea de realizat o aplicatie cu grafica, in care veti implementa design patterns si o sa va ia o gramada de scris cod (eu am avut o tema mai simpluta si am avut 2600 de linii de cod, cele mai multe la grafica). Examenul e ca la PC, tot un pisat, are mai mult legatura cu sintaxa de Java decat de conceptele de POO (bine, va intreaba de mostenire, clase abstracte si interfete, dar de design patters, care sunt esentiale, nu). Ah da, o poveste misto la tema: Nan, cu rahatul lui de antiplagiat, a dat copiat la 20 de persoane din serie (inclusiv eu), cu procentaj cica de > 50% (insa la final a scos copiatul la toti, dar totusi muie Nan + las asta aici, fix eu cand am aflat de copiat: https://www.captiongenerator.com/865302/Hitler-reacts-to-Calculus-exam).
+
+AA
+Cursul cu Mogos, scrie mult si repede la tabla, macar cursul este predat ok (se intelege ok din ce preda el), insa la examen va cere TOT din curs (teoreme, demonstratii, dar si exercitii), poate sa pice orice. Labul este ok,
+e pe echipe de 2-3 si faceti probleme, eu am facut labul cu proful si a fost destul de ok, dupa mine, cu el. La lab au mai fost David Iancu (un futut in cur), Ioana Neamtu (draguta la lab) si Nan (iar coaie Nan?!).
+Noi am avut o tema de cacat in 2 parti (de cacat ca a fost data de Nan, inainte proful decidea temele, erau 2, si erau mai ok, cu cod), fara cod, din care nu am invatat mai nimic (cam ciufuta tema, am cautat o groaza pe net ca sa ne inspiram la ea).
+La jumatatea semestrului se da o lucrare de curs, de nivel ok, cu probleme ca la laborator (aceeasi dificultate), care valoareaza 2.5 puncte (tema e 2p, iar labul 1.5). Problema cu Mogos e ca stai o mie de ani sa corecteze lucrarile (notele de la curs le-am primit in prima zi de sesiune, la fel si la tema si lab, si la examen fix in seara ultimei zile din sesiune). Proful corecteaza la sange, dar corect (nu ca muia aia de Coraci - TS).
+
+IOCLA
+Cursul cu RD, predat ok, cu demo-uri scrise live (in C si assembly), aici se invata limbajul assembly in principiu si un pic de hacking pe la final (reverse engineering).
+Se dau teste de curs, un pic ciufute, cu chestii din lab si dintr-o carte data ca referinta la curs (oricum sunt chestii luate copy paste din cartea aia in slide-uri).
+Laboratoarele sunt ok aici, 3 teme (prima lejeraaaa, a doua cam naspa, mult de scris, si a treia a fost naspa la noi - sa spargi un program / executabil). Examenul e bazat pe testele de curs (acelasi tipar de subiecte). Merita, zic eu, sa vii pe la curs (ca sa nu te simti prost ca nu vii deloc la cursuri).
+
+TS
+O materie de tot cacatul, care lasa multi restantieri, o materie inutila, de umplutura, care e facuta mult mai bine (in 2 materii - SS + TSA) la IS. Cursul e predat de maritul
+penal si muist Cezar Coraci, care preda ca dracu, mai baga el povesti pe care le-a trait el (si care te adorm) si scrie ca un bolnav de Parkinson la tabla (v ca r sau viceversa), de aceea mi-am bagat
+pula si nu m-am mai dus la el la curs, ca nu merita sa ma chinui sa ii traduc cursul de pe tabla (am invatat de pe cursuri de la cei mai mari). La seminar e ok sa-l aveti pe Calofir si NU PE 
+CRETINA DE RALUCA TUDORIE, CARE STIE MATERIA MAI PROST DECAT UN STUDENT, aveam seminarul / labul de la 8 dimineata cu ea si mereu intarzia juma' de ora, facea greseli la seminar la probleme,
+labul de TS e in Matlab si e foarte inutil, implementati probleme de la seminar. Si btw, aveam seminarul cu ea si ne-a zis cand o asteptam sa vina sa nu se mai face ca nu merg calculatoarele (CE PULA MEA!?!). Asa ca mai bine luati seminariile lui Calofir. Partialul si teoria sunt structurate in 2 parti: teorie si probleme. Problemele sunt mereu la fel (una la final, alta la partial), sunt fix acelasi la seminar, trebuie doar sa invatati cum sa le faceti, sunt lejeeereee. La teorie e FOARTE FRUMOS IN PULA MEA: problemele sunt corectate de Calofir, iar teoria de muistul de Coraci, care corecteaza random, ca o pula flasca in mortii lui de retardat. Daca vede o greseala la teorie, nu mai corecteaza nimic ce urmeaza (plm autist). Are preferate la teorie si vine asa: partial - SLN, SLD (astea sunt lejere si logice, garantul ca treci materia daca iti pica astea 2 la partial), stabilitatea (logica, dar ff stufoasa) si controlabilitatea aka TDC (un cacat care trebuie tocit, nu merge sa inveti logic ca sa treci), la ultimele 2 (mai ales TDC) ar fi ok sa faceti servite (MAI BINE ZIS FACETI IN PULA MEA SERVITE WAA si sa nu le lasati pe banca, mai bine in haine). Am avut servita la TDC, dar am avut SLN yaay, insa labagiul poate da 6-7 pe o servita ok (muist csf). La final e naspa sa dai servita (aici e Coraci cu Calofir si sclavul de Simoiu de la PI), ca dati 2 grupe in principiu (la partial 3 serii in 2 sali mari) si favoritele sunt: estimator, compensator si legatura. O materie care merita mai mult trecuta si uitata.
+
+EEA
+O materie cam inutila si veche, cu un curs predat ca pula de catre Surpateanu (tipul e caterinca - anecdote, dar e plictistor si te adoarme - limba in obraz :D), lumea inceteaza sa vina la curs (mai face o prezenta bonus cand nu prea e lume).
+E bine ca va da pdf-uri cu cursurile (care mai au greseli, lelz). Seminarul e inutil (iar Surpy), nu prea se intelege nimic si adormi (nr de oameni prezenti la seminar o sa scada). Labul e cam meh, cu referate si teste la lab, lucrati cu diode, tranzistoare etc.
+Sunt 2 teme: prima e de cacat, nu prea stie lumea sa o faca si se copiaza in draci (si cred ca nu o s-o schimbe, deci copiati frumosilor), iar a doua e lejera, de simulat o schema in LTSPICE.
+La seminar se da un test care e lejer, sa alegeti problema cu tranzistoare si PSF, ca e ff lejera si usoara. La examen 2 probleme (un PSF un pic mai complex decat la seminar si una cu amplificatoare), problemele le-am invatat de pe foile lui Surpy de la xerox
+si probleme rezolvate (vezi drive-ul meu boss) + pregatire cu Tranca cu toata seria (rugati-l si voi sa va faca o pregatire, ca la Negrescu) si 3 subiecte de teorie (unul e sigur filtre, mereu da asa ceva). Examenul il treci cu minim 5 pe minim 3 subiecte 
+(multi se duc cu problemele si filtre, asa m-a dus eu - 10 10 6 la AO si in rest nimic - insa e ok sa invatati si o teorie - va da proful structura examenului - ca sa fiti siguri ca treceti, poate fi uneori bulangiu la corectat).
+
+Psihoinventica
+Nu stiu de ce pula mea se face o materie ca asta la Poli (e ca istoria filozofiei), o materie fara sens, pula merge la curs (3 persoane), la seminar te plictisesti si dormi si ai de facut
+un proiect (referat despre o inventie sau o aplicatie - mai bine alegeti aplicatia, e mai practica). Colocviu cu un referat, oricum da 10 la toti.
+
+Semestrul 2
+Un semestru incarcat cu teme (8), proiect in echipa si... cursuri cu prezenta! (teste neanuntate / miniteste la curs <3).
+
+PP
+Consider ca e materia cea mai bine facuta si organizata pana acum. Cursul (Olaru) e predat fain, interactiv, in sensul ca proful face scrie cod live, mai scrie la tabla ca sa inteleaga lumea concepte din slide-uri, nu e tipul de curs in care proful doar da din gura si se uita pe slide-uri. Se da un minitest la fiecare curs (0.5 per total), dar e ok, ca se dau chestii din slideuri sau de pe tabla, poti sa copiezi la ele, ca pe prof il intereseaza daca ai inteles conceptul predat la curs, nu daca ai retinut informatia. Se invata urmatoarele paradigme de programare: functionala (Racket si Haskell), logica (Prolog) si ff putin asociativa (Clips - e un subiect la examen nu cu Clips, ci cu masina Markov). 3 teme (1.33 fiecare fara bonus - bonus de 20 pct din tema), fiecare cu limbajul lui. Temele, dupa mine, au fost ok, prima (Racket) a fost ok, lejera (chiar daca a fost daca de Nan, SHOCK!), care trebuie facuta toata ca sa asigurati ca intrati in examen,
+a doua in Haskell (limbajul are sintaxa mai complexa, dar va obisnuiti) si a treia in Prolog (e mai usor decat Haskellul, dar lumea nu isi mai bate asa tare capul la ea daca e intrata in examen).
+Organizarea este ok la teme (Racket - Nan, Haskell - proful de la CA - Prolog - Olaru sau Berariu), la Haskell ne-a prelungit deadline-ul cu vreo 5 zile (baietasi waa) si intr-un fel si la Racket.
+Laburile sunt ok explicate, insa unele sunt naspa ca probleme si o sa cereti mereu laburile de la unul de la altul, merg bine facute dinainte, e cu checker la lab de punctaj.
+Se da un test grila franceza cu materia de lab care e naspa, dar are 0.5, va bagati pula in el. Examenul e ff ok, cel mai ok examen din toata facultatea, e open-source si se iau punctaje mari la examen.
+
+PA
+Cursul e cu Chiru (predat bine, Chiru e baietas), insa se preda multa teorie la curs (teoreme, demonstratii, se iau din Cormen), materia e destul de densa. Laburile sunt acum ok, probleme de care dai la interviu, checker de punctaj la lab, poti sa programezi in Java sau C/C++ la lab. 2 teme, cu probleme de algo mai grele decat la lab si furate de pe infoarena. La noi, prima tema a fost o bataie de joc, prima problema care a fost ok era explicata ca pula si pe forum se raspundea aiurea la problema, a doua
+a fost naspa rau (si conta cel mai mult ca punctaj la tema), fara ajutor nu o faceai (programare dinamica - au dat laborantii la lab solutia la problema + circula un link cu solutia problemei prin facultate - nu a luat nimeni copiat la ambele teme la PA), a treia a fost ok, 
+iar bonusul a fost rezolvat de 95% cu backtracking (desi se dorea cu programare dinamica, aia e, responsabili cretini). A doua tema (grafuri) a fost mai ok, ca sa intre lumea in examen (pai daca prima tema a fost o bataie de joc...), multi au avut 120 pe ea.
+Se da un test practic cu probleme de algo (greedy, DP, grafuri), ok ca dificultate, cam multi am luat peste 1 din 1.5 la test, pe hackerrank, ai voie sa cauti idei / pseudocod pe net (dar nu cod de pe net) si cod de la lab sa propriu. In plus, aici aveti de facut un proiect in echipa pe etape (sa realizati bot, noi am avut Halite 2, unde nu prea am folosit multe lucruri de la PA, e mai mult euristica proprie aici - prima etapa este eazy, a doua mai naspa apoi isi baga lumea pula in el de proiect) + aveti grija cu cine faceti echipa (fara lepre)
+Examenul e naspa (teorie, timp scurt alocat pt examen - o ora si jumate parca), daca ai 1.80 iti da Chiru 2 pe examen (2 / 4 adica) ca sa treci, baietas tare. Aici s-ar pica cel mai mult (ca examen vorbind), impreuna cu ED.
+
+PC
+Cursul cu Pop, acum e mai plictistor, noua ne-a dat teste de curs neanuntate (o parte erau bataie de joc, nu gaseai in curs informatii), si teme de curs (probleme care se copiaza de pe net) ca sa marcheze prezenta la curs, din Tannenbaum (o carte stufoasa care trebuie citita la examen - pulea citeste toata cartea aia).
+Laburile sunt lejere, temele sunt ok (primele 2 ale noastre erau cele de anul trecut, iar a treia a intarziat mult si era din 2013 - bataie de joc in sensul ca s-a intarziat mult si sub jumate din CTI a trimis tema 3, era facubila, dar pula timp).
+La examen e, sa zicem, cu preferate (vezi drive + exams), trebuie sa fii idiot tare sa pici la Pop, care corecteaza generos, lejer (au trecut toti).
+
+ED
+Continuare la EEA, un curs predat mai ok decat la EEA, insa proful vine cu durere in pula la curs (Ilas). Cursul e la 8 dimineata, asadar prezenta la curs e redusa (15 persoane), mai face prezenta pt puncte bonus (0.1 puncte, max 0.3 pe o prezenta).
+Chiar daca proful are pdf-uri si slide-uri, el scrie pe tabla si cere si de acolo la examen si mai vorbeste chestii esentiale care se cer la examen si asa apare problema ca sunt cursuri care au chestii lipsa -> vine beleaua de la examen ca nu stii de pe ce cursuri (in afara de pdf-uri, care sunt fffff stufoase),
+examenul are 3 subiecte de teorie si 2 probleme (una e data la testul de seminar, care e ok + seminarul e facut ok, de Tataroiu (de treaba), insa si acolo scade prezenta caci lumea trebuie sa faca temele sau lene), examenul e naspa, insa Ilas trece cu 23, chiar si 20 / 50 (am trecut cu 23, ziceam restanta direct plm). 
+E mai ok sa dati examenul primii, ca da mai usor, la final da ca un cacat la teorie. La lab e ca la EEA, cam acelasi rahat, doar ca referatele sunt mai naspa. DACA FACETI LABUL CU MUISTA DE SARACIN, PLECATI, E CEA MAI MARE AUTISTA, TE ASCULTA LA FIECARE LAB SI PUNE INTREBARI DE TOT RAHATUL, CA E O MUISTA.
+2 teme, pe care lumea le copiaza in prostie, ca nu stie sa le faca (are tendinta sa dea la fel ca in anii trecut - bine, la tema 1 a dat alta, dar tema2 a fost la fel - multi am avut 7 si 9 sau 8 8 pe teme).
+
+CN
+Cursul cu Nirvana, legat de arhitectura calculatoarelor si procesoare (MIPS, oarecum ca la IOClA). Profa e foarte draguta ca persoane, te mai adoarme la curs, nu sta lumea mereu atenta din cauza temelor de la facultate (ehhhh).
+Labul e in echipe de 2, scrieti cod (Verilog sau VHDL) pe placute FPGA (e fain, caterinca, mi-a placut mult, daca faceti labul cu Alexandra Radu sau profa e ff ok). Se da un colocviu la lab (2 p), care e totul sau nimic, insa e ok ca dificultate,
+aveti voie cu cod pe foaie, cam toti au luat punctajul la colocviu. La curs se dau teste neanuntate, care sunt ok, se copiaza in prostie la teste (de la altul sau din slide-uri - vezi drive boss).
+La examen e cu favorite (vezi drive), se poate copia de la colegul din fata ok, subiectul de hazarde e o problema care e foarte usoara. Poti sa pici ca prostul la CN (I did it, dar 10 la restanta ayyy), cel mai bine e sa inveti logic la CN, dupa favorite (vezi iar drive - ah va fut bine cu drive-ul meu, dar csf, e de baza).
+
+ADIV
+MUIE SARACIN MUIE SARACIN, BAGA-MI-AS PULA IN GURA EI DE TARFA PROASTA, RETARDATA SI AUTISTA. O materie complet inutila (3 pct credit), fara nicio relevanta, e mai mare futaiul decat la PP&PA&PC. Profa preda ca o pula flasca minunatul ei curs extrem de inutil (stiti, sarcasm, nu?), scade prezenta la curs, insa aici e o chestie:
+ea dadea teste de curs (la care oricum dadea note mici) si pe noi ne-a rugat sa alegem teste sau teme, noi am ales ca prostii teme, care erau o bataie de joc (in prima faza referate inutile despre niste cacaturi de componente, folosite intr-un cacat de masinarie Schneider, in a doua faza probleme ca la curs, 
+insa date in bataie de joc, multa lume copia problemele si se prindea profa ca erau copiate, ca nu statea lumea sa le faca, mai ales la o materie fututa, inutila si infecta ca ADIV), si asa nu dadea note mari (muista). La lab umblati pe un cacat de masinarie, faceti niste programe si trebuie sa faceti referate cu detalii despre ce ati facut (bag pula in mortii ei, irelevante).
+La colocviu e amuzant, vine cu pinguinul de tac-su, si afiseaza subiectele pe un word la proiector (saraca pulii, nu are bani de xerox), de tot da in sus sau jos ca sa arate subiectele pe care sa le copiati pe foaie si uneori nu le prindeti si mai tot da (idioata, ce pula mea).
+La colocviu nu prea invata lumea si se copiaza in prostie de la unul de la altul sau de pe telefon (teorie, probleme), eu m-am dus tufa la colocviu.

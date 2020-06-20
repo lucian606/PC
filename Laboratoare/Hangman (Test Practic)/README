@@ -1,0 +1,19 @@
+324CC ILIESCU LUCIAN-MARIUS
+
+Atunci cand se conecteaza primul client il retin intr-o variabila.
+Cuvantul initial este "temp", pana cand se alege un cuvant.
+
+Retin clientii intr-un hashmap, unde cheile sunt socketii, iar valorile sunt vietile.
+
+La comanda set verific daca socketul corespunde primului client.
+Daca se da set cand este deja un cuvant selectat, afisez eroare.
+Iar daca sunt conectati jucatori deja, nu se trimite nicio notificare.
+
+La comanda guess verific daca socketul nu corespunde primului client. Folosesc un vector de litere ghicite, iar atunci cand
+ghicesc o litera parcurg sirul, si verific daca litera se afla
+in sir, si marchez pozitia ca fiind ghicita. Atunci cand toate
+literele is ghicite trimit mesaj de game over si inchid clientul.
+
+La comanda status verific daca socketul nu corepunde primului client. Si afisez valoarea vietilor corespunzatoare socketului.
+
+La comanda quit, atunci cand socketul corespunde primului client inchid serverul.
