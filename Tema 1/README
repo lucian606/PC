@@ -8,7 +8,7 @@ Dupa convertire pun entry-ul in tabela.
 
 Cautarea in tabela de rutare:
 Am folosit un arbore binar, unde nivelul curent este pozitia la nivelul bitilor.
-Masca imi spune primii de primii cati biti din prefix am nevoie.
+Masca imi spune de primii cati biti din prefix am nevoie.
 Stiind ca masca este formata dintr-o secventa de biti de 1, calculez lungimea.
 Pun index-ul elementului din tabela, urmand primii l(lungimea mastii) biti din
 prefix, 0 inseamna ca merg la stanga si 1 inseamna ca merg la dreapta, deplasarea
